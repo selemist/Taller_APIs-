@@ -1,0 +1,68 @@
+/* Aclaro por aquí que tuve que usar !important muchas veces por algunas clases de bootstrap*/
+
+body {
+    background-color: #343652 !important; 
+    color: white !important; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem !important; 
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+.card {
+    font-family: fantasy;
+    font-weight: bolder !important; 
+    font-size: 1.2rem !important; 
+    width: 18rem !important;
+    height: 24rem !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    color: #dddddd !important;
+    background-color: #5A5E7F !important;
+    border-radius: 10px !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; 
+}
+
+.card-body {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    max-width: 100% !important;
+    height: 70% !important; 
+    object-fit:contain;
+    background-color: #ffffff !important;
+    border-radius: 10px 10px 0 0 !important; 
+}
+
+.card-description {
+    max-height: 100px !important;
+    overflow-y: auto !important;
+    padding: 10px !important;
+    font-size: 0.9rem !important;
+    color: #dddddd !important;
+    border-top: 1px solid #ddd !important; 
+}
+
+.card-title {
+    font-size: 1.2rem !important;
+    color: #ffffff !important;
+    margin-bottom: 10px !important;
+}
+
+.card-text {
+    font-size: 1rem !important;
+    color: #ffffff !important;
+    margin-bottom: 15px !important;
+}
